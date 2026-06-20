@@ -1,0 +1,149 @@
+body{
+
+    margin:0;
+
+    font-family:Arial, sans-serif;
+
+    background:#808080;
+
+}
+
+
+.contenedor{
+
+    width:95%;
+
+    margin:20px auto;
+
+    background:black;
+
+    color:white;
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr 1fr;
+
+    gap:20px;
+
+    padding:20px;
+
+}
+
+
+.logo{
+
+    text-align:center;
+
+    font-size:25px;
+
+    padding:20px;
+
+}
+
+
+.titulo{
+
+    background:#e6e6e6;
+
+    color:black;
+
+    font-weight:bold;
+
+    text-align:center;
+
+    font-size:18px;
+
+    padding:5px;
+
+}
+
+
+h2{
+
+    margin-bottom:5px;
+
+}
+
+
+hr{
+
+    border:1px solid white;
+
+}
+
+
+label{
+
+    display:inline-block;
+
+    width:80px;
+
+    margin:5px 0;
+
+}
+
+
+input[type="text"],
+
+input[type="email"]{
+
+    width:230px;
+
+}
+
+
+.dias{
+
+    width:40px;
+
+}
+
+
+.marcas{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:25px;
+
+    margin-top:40px;
+
+    text-align:center;
+
+    font-size:30px;
+
+    font-weight:bold;
+
+}
+
+
+button{
+
+    padding:8px 15px;
+
+    cursor:pointer;
+
+}
+
+
+footer{
+
+    text-align:center;
+
+    background:#8f8f8f;
+
+    color:white;
+
+    padding:15px;
+
+    font-size:25px;
+
+}
+
+
+footer h3{
+
+    margin:0;
+
+}
